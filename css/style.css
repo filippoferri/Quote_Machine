@@ -1,0 +1,87 @@
+html. body {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1444837881208-4d46d5c1f127?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=30ead2e699f75df8f2bb82e8edf0a350) no-repeat center center fixed;
+    background-size: cover;
+    color: #4e4e4e;
+}
+
+.jumbotron {
+    height: 100%;
+    position: relative;
+    background-color: transparent;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+.jumbotron h1 {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.jumbotron h2 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+i.fa {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.quotes {
+    position: absolute;
+    top: 50%;
+    width: 280px;
+    left: 50%;
+    margin-left: -140px;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.quote {
+    height: 100%;
+}
+
+.quotes .btn {
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 30px 10px 0 10px;
+    width: 150px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: transparent;
+}
+
+.quotes .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .quotes {
+        width: 600px;
+        margin-left: -300px;
+    }
+    .jumbotron h1 {
+        font-size: 25px;
+    }
+    .quote {
+        height: 200px;
+    }
+}
